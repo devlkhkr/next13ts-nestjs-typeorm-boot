@@ -1,5 +1,5 @@
 # frontend
-next13ts, storybook, jest
+next13ts, mui, storybook, jest
 
 # backend
 nestjs, typeorm
