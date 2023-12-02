@@ -1,8 +1,20 @@
+.DS_Store
+backend/.DS_Store
 
-backend/build
-backend/dist
-backend/node_modules
-backend/.env
+backend/bridge-common/node_modules
+backend/bridge-common/build
+backend/bridge-common/src/migration
+backend/bridge-common/dist
+backend/bridge-common/.env
 
-frontend/node_modules
-frontend/.env
+frontend/bridge-admin/node_modules
+frontend/bridge-admin/.env
+
+frontend/bridge-user/node_modules
+frontend/bridge-user/.env
+frontend/bridge-user/.next
+
+db/db
+node_modules
+yarn.lock
+frontend/bridge-user/yarn.lock

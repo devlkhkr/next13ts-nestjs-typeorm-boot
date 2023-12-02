@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "concurrently": "^8.2.1"
+  },
+  "scripts": {
+    "user": "concurrently \"yarn database\" \"yarn user-frontend\" \"yarn backend\"",
+    "admin": "concurrently \"yarn database\" \"yarn admin-frontend\" \"yarn backend\"",
+    "user-frontend": "cd frontend/bridge-user && yarn dev",
+    "admin-frontend": "cd frontend/bridge-user && yarn dev",
+    "backend": "cd backend/bridge-common && npm run start --watch",
+    "database": "cd db && docker-compose up"
+  }
+}
